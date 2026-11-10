@@ -22,7 +22,7 @@ data/
 `src/extract.py` fetches the oncology panel from Ensembl and writes the processed CSV. It only reads a matching JSON from `data/raw/` as a fallback when an API request fails; it does not save successful responses there. `src/load_sql.py` reads the CSV and creates the SQLite database. The standalone `src/transform_pandas.py` and `src/transform_polars.py` scripts also read the BRCA1 JSON and can create separate CSVs in `data/processed/`; those are alternative outputs, not inputs to the main SQL loading step.
 
 ## 📊 Dashboard Preview
-![Dashboard Preview](link-alla-tua-immagine-o-gif)
+![Dashboard Preview](dashboard/clinic-genomic-overview.png)
 
 ## ⚙️ How to Deploy (For technical review)
 To replicate this dashboard in your local Superset instance:
