@@ -1,9 +1,9 @@
-# 🧬 Genomic & Clinical Data Pipeline: API to Superset
+#  Genomic & Clinical Data Pipeline: API to Superset
 
-## 📌 Project Overview
+##  Project Overview
 An end-to-end data engineering pipeline that extracts genomic transcript data via the Ensembl REST API, processes it using Python (Pandas), and loads it into a relational database for visualization in Apache Superset.
 
-## 🏗️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 * **Data Extraction:** Python, `requests` library (Ensembl API)
 * **Data Cleaning & ETL:** Pandas
 * **Database:** SQLite / PostgreSQL
